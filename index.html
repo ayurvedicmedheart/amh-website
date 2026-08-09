@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AYURVEDIC MEDICINE FOR HEART</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;color:#24352b;background:#f8fbf7}
+header{background:#fff;padding:14px 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e4ebe5;position:sticky;top:0;z-index:10}
+.logo-area{display:flex;align-items:center}
+.site-logo{width:180px;height:auto;max-height:65px;object-fit:contain;display:block}
+nav a{text-decoration:none;color:#405248;margin-left:28px;font-size:14px;font-weight:600}
+nav a:hover{color:#39734b}
+.hero{min-height:50px;padding:px 7%;display:flex;align-items:center;justify-content:space-between;gap:50px;background:linear-gradient(135deg,#f4faf4,#fff)}
+.hero-text{max-width:620px}
+.badge{display:inline-block;background:#e6f2e8;color:#367048;padding:9px 16px;border-radius:30px;font-size:13px;font-weight:bold;margin-bottom:22px}
+.hero h1{
+font-size:52px;
+line-height:1.08;
+color:#234d34;
+margin-bottom:18px;
+letter-spacing:-0.5px;
+}
+.hero h1 span{color:#6a9b6f}
+.hero p{font-size:18px;line-height:1.7;color:#617067;max-width:570px;margin-bottom:30px}
+.buttons{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 27px;border-radius:8px;text-decoration:none;font-weight:bold;font-size:15px}
+.btn-primary{background:#3d7950;color:white}.btn-primary:hover{background:#2f613e}
+.btn-secondary{background:white;color:#3d7950;border:1px solid #3d7950}.btn-secondary:hover{background:#eef7ef}
+.hero-visual{width:390px;height:390px;border-radius:0;background:transparent;display:flex;align-items:center;justify-content:center};box-shadow:none)}
+.hero-logo{width:300px;max-width:80%;height:390px;object-fit:contain}
+.features{padding:65px 7%;background:white;text-align:center}
+.section-title{font-size:32px;color:#294f36;margin-bottom:10px}
+.section-subtitle{color:#718078;margin-bottom:40px}
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.feature-card{padding:30px 20px;background:linear-gradient(145deg,#ffffff,#f2faf4);border:1px solid #dceee1;border-radius:18px;box-shadow:0 6px 18px rgba(35,75,52,.08);text-align:center;transition:transform .25s ease,box-shadow .25s ease}
+.feature-icon{font-size:35px;margin-bottom:15px}
+.feature-card h3{
+font-size:19px;
+color:#245b3b;
+margin-bottom:10px;
+font-weight:700;
+letter-spacing:.2px;
+}
+.feature-card p{font-size:13px;line-height:1.6;color:#748078}
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:22px;
+max-width:1100px;
+margin:0 auto;
+}
+
+.feature-icon{
+width:64px;
+height:64px;
+margin:0 auto 18px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+background:linear-gradient(135deg,#e8f7ed,#c8e8d2);
+font-size:30px;
+box-shadow:0 4px 12px rgba(35,75,52,.10);
+}
+
+.feature-card h3{
+font-size:18px;
+color:#245b3b;
+margin-bottom:10px;
+font-weight:700;
+}
+
+.feature-card p{
+font-size:14px;
+line-height:1.6;
+color:#68776e;
+margin:0;
+}
+.feature-card{
+padding:30px 20px;
+background:#ffffff;
+border:1px solid #dceee2;
+border-radius:16px;
+text-align:center;
+transition:all .3s ease;
+box-shadow:0 4px 15px rgba(35,75,52,.06);
+}
+
+.feature-card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 25px rgba(35,75,52,.12);
+border-color:#9ac9aa;
+}
+
+.feature-icon{
+width:58px;
+height:58px;
+margin:0 auto 16px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+background:linear-gradient(135deg,#e8f6ec,#ccebd5);
+font-size:28px;
+}
+
+.feature-card h3{
+font-size:18px;
+color:#245b3b;
+margin-bottom:10px;
+}
+
+.feature-card p{
+font-size:14px;
+line-height:1.6;
+color:#68776e;
+margin:0;
+}
+.products{padding:70px 7%;background:#f5faf5;text-align:center}
+.product-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;max-width:900px;margin:0 auto}
+.product-card{background:white;padding:28px;border-radius:16px;text-align:left;border:1px solid #e4ece5}
+.product-image{height:220px;border-radius:12px;background:#edf6ee;display:flex;align-items:center;justify-content:center;font-size:70px;margin-bottom:20px}
+.product-card h3{color:#2d5639;margin-bottom:8px}
+.product-card p{color:#718078;line-height:1.6;font-size:14px}
+.price{font-size:22px;font-weight:bold;color:#39734b;margin:15px 0}
+footer {
+  background: #24583b;
+  color: white;
+  text-align: center;
+  padding: 28px 15px;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 6px 0;
+}
+
+footer a {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+footer .copyright {
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 30px 15px;
+  }
+
+  footer h3 {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer a {
+    font-size: 14px;
+  }
+
+  footer .copyright {
+    font-size: 12px;
+  }
+}
+@media(max-width:850px){
+header{padding:15px 5%}.site-logo{width:145px}nav a{margin-left:12px;font-size:12px}
+.hero{padding:50px 6%;flex-direction:column;text-align:center}.hero h1{font-size:38px}.hero p{font-size:16px}
+.buttons{justify-content:center}.hero-visual{width:300px;height:300px}.feature-grid{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:1fr}
+}
+.hero-visual img{
+  width:300px !important;
+  height:390px !important;
+  max-width:100% !important;
+  max-height:390px !important;
+  object-fit:contain !important;
+
+
+}
+
+.product-image {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 700px) {
+
+  .header {
+    padding: 12px 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .logo-area {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 95px;
+  }
+
+  .brand h1 {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .brand p {
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .nav a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+}
+
+  /* ===== MOBILE LAYOUT ===== */
+
+  /* Hero section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 35px 20px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .hero-image img {
+    max-width: 75%;
+    height: auto;
+  }
+
+  /* Why Choose Us */
+  .features,
+  .features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .feature-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Products */
+  .products,
+  .products-grid {
+    grid-template-columns: 1fr !important;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .product-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<header>
+<div class="logo-area">
+    <img src="logo.png" class="site-logo" alt="AMH Logo">
+    <div>
+        <div class="brand">AYURVEDIC MEDICINE FOR HEART</div>
+        <div class="brand-small">Natural Wellness • Trusted Care</div>
+    </div>
+</div>
+<nav>
+<a href="#">Home</a><a href="#products">Products</a><a href="#why-us">Why Us</a><a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-text">
+<div class="badge">🌿 Ayurvedic Wellness</div>
+<h1>Care for Your Heart,<br><span>Naturally.</span></h1>
+<p>Discover our Ayurvedic wellness products made with carefully selected traditional ingredients for your everyday health and well-being.</p>
+<div class="buttons">
+<a href="https://ayurvedicmedheart.github.io/amh-order-form/" class="btn btn-primary">🛒 Order Now</a>
+<a href="track.html" class="btn btn-secondary">📦 Track Your Order</a>
+</div>
+</div>
+<div class="hero-visual">
+<img src="product.png" class="hero-logo" alt="Ayurvedic Medicine For Heart">
+</div>
+</section>
+
+<section class="features" id="why-us">
+<h2 class="section-title">Why Choose Us?</h2>
+<p class="section-subtitle">Simple, reliable and customer-focused Ayurvedic wellness.</p>
+<div class="feature-grid">
+<div class="feature-card"><div class="feature-icon">🌿</div><h3>Ayurvedic Wellness</h3><p>Inspired by traditional Ayurvedic principles and natural ingredients.</p></div>
+<div class="feature-card"><div class="feature-icon">📦</div><h3>Easy Ordering</h3><p>Place your order easily through our simple online order form.</p></div>
+<div class="feature-card"><div class="feature-icon">🚚</div><h3>Reliable Delivery</h3><p>We carefully process and dispatch your order for convenient delivery.</p></div>
+<div class="feature-card"><div class="feature-icon">💬</div><h3>Customer Support</h3><p>Get assistance through WhatsApp whenever you need help with your order.</p></div>
+</div>
+</section>
+
+<section class="products" id="products">
+
+<h2 class="section-title">Our Products</h2>
+
+<p class="section-subtitle">
+Explore our Ayurvedic wellness products.
+</p>
+
+<div class="product-grid">
+
+<!-- Ayurvedic Medicine For Heart -->
+<div class="product-card">
+
+<div class="product-image">
+<img src="product.png" alt="Ayurvedic Medicine For Heart">
+</div>
+
+<h3>Ayurvedic Medicine For Heart</h3>
+
+<p>Pack of 1 Bottle — 15 Days</p>
+
+<div class="price">₹400</div>
+
+<a href="ayurvedic-medicine.html" class="btn btn-primary">
+View Product
+</a>
+
+</div>
+
+
+<!-- Heartveda Powder -->
+<div class="product-card">
+
+<div class="product-image">
+<img src="heartveda-powder.png" alt="Heartveda Powder">
+</div>
+
+<h3>Heartveda Powder</h3>
+
+<p>Traditional Ayurvedic herbal powder made with Arjun, Dalchini, Lehsun, Methi and other natural ingredients.</p>
+
+<div class="price">₹10</div>
+
+<a href="heartveda-powder.html" class="btn btn-primary">
+View Product
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+<h3>AYURVEDIC MEDICINE FOR HEART</h3>
+<p>Wishing you Healthy Heart always ❤️</p>
+<p>📍 Village Kitholi, Baghpat Road, Meerut, Uttar Pradesh – 250501</p>
+<p>
+  For Orders & Support —
+  <a href="https://wa.me/919358726799" target="_blank">
+    WhatsApp Us
+  </a>
+</p>
+<p>© 2026 AYURVEDIC MEDICINE FOR HEART. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
